@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperatura do Ambiente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temperatura do Ambiente</h1>
+
+    <div class="controls">
+      <label for="temperatura">Temperatura (0 a 70):</label>
+      <input type="number" id="temperatura" value="30" min="0" max="70">
+      <button id="btnAtualizar">Atualizar</button>
+      <span id="mensagemErro" class="erro"></span>
+    </div>
+
+    <div id="retangulo" class="retangulo amarelo-claro"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
