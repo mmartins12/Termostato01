@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 24px 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+label {
+  font-size: 14px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 6px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+.erro {
+  color: #d32f2f;
+  font-size: 13px;
+  font-weight: bold;
+  min-height: 16px;
+}
+
+.retangulo {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Cores possíveis do retângulo */
+.azul-claro {
+  background-color: #ADD8E6;
+}
+
+.amarelo-claro {
+  background-color: #FFFFE0;
+}
+
+.vermelho-claro {
+  background-color: #FF7F7F;
+}
+
+.vermelho-escuro {
+  background-color: #8B0000;
+}
+
+.branco {
+  background-color: #FFFFFF;
+}
